@@ -2,7 +2,7 @@ function Footer () {
 
     return(
         <>
-        <div className="font-mono text-base text-center">To be continued ...</div>
+        <div className="font-mono text-base text-center my-10">To be continued ...</div>
         </>
     )
 
