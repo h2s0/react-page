@@ -1,8 +1,19 @@
-# React + Vite
+# 3주차 과제
+- - -
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+구현화면
+![Alt text](image.png)
+![Alt text](image-1.png)
 
-Currently, two official plugins are available:
+<br/>
+<br/>
+박스 클릭 시 각자의 이미지를 크게 볼 수 있는 페이지로 이동한다.
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Alt text](image-2.png)
+
+희새의 비행일지 클릭 시 메인 화면으로 돌아간다.
+
+- - -
+
+시도한 것 : 리스트 렌더링, 라우터
