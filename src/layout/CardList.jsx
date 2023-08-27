@@ -24,6 +24,18 @@ const trips = [
         src: '/imgs/Interlaken.jpg',
         countryText: 'Switzerland',
         date: '2018.08'
+    },
+    {
+        id:5,
+        src: '/imgs/Budapest.jpg',
+        countryText: 'Hungary',
+        date: '2018.08'
+    },
+    {
+        id:6,
+        src: '/imgs/Florence.jpg',
+        countryText: 'Italy',
+        date: '2018.08'
     }
 ]
 
