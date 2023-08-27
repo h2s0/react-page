@@ -1,12 +1,12 @@
 import Header from './../layout/Header'
 
-function Detail1 () {
+function Detail4 () {
     return (
         <>
             <Header></Header>
-            <img src="/imgs/Marseille.jpg" alt="" className='mt-5'/>
+            <img src="/imgs/Interlaken.jpg" alt="" className='mt-5'/>
         </>
     )
 }
 
-export default Detail1
+export default Detail4
