@@ -1,16 +1,17 @@
-function Card() {
+function Card({card}) {
 
     return(
-        <div className="w-52 h-40 bg-pink-200 rounded m-3">
-            <img src="" alt="" />
-            <div>제목</div>
-            <div>여행정보
-                <img src="" alt="" />
-                <div>나라</div>
-                <div>날짜</div>
-            </div>
-
+    <>
+    <div className="w-52 h-40 bg-blue-50 rounded-xl m-3 p-2">
+        <img src="{card.src}" alt="" className="w-full h-auto" />
+        <div className="">{card.title}</div>
+        <div className="flex items-center gap-1">
+            <img src="{card.country}" alt="" />
+            <div className="">{card.countryText}</div>
+            <div className="">{card.date}</div>
         </div>
+    </div>
+    </>
     )
 
 }
