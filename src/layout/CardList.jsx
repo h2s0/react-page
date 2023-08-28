@@ -4,37 +4,43 @@ const trips = [
     {
         id:1,
         src: '/imgs/Marseille.jpg',
-        countryText: 'France',
+        countryImage: '/flagImgs/flagFrance.png',
+        city: 'Marseille',
         date: '2018.07'
     },
     {
         id:2,
         src: '/imgs/Cambridge.jpg',
-        countryText: 'United Kingdom',
+        countryImage: '/flagImgs/FlagUk.png',
+        city: 'Cambridge',
         date: '2020.10'
     },
     {
         id:3,
         src: '/imgs/Valencia.jpg',
-        countryText: 'Spain',
+        countryImage: '/flagImgs/FlagSpain.png',
+        city: 'Valencia',
         date: '2018.07'
     },
     {
         id:4,
         src: '/imgs/Interlaken.jpg',
-        countryText: 'Switzerland',
+        countryImage: '/flagImgs/FlagSwitzerland.png',
+        city: 'Interlaken',
         date: '2018.08'
     },
     {
         id:5,
         src: '/imgs/Budapest.jpg',
-        countryText: 'Hungary',
+        countryImage: '/flagImgs/FlagHungary.png',
+        city: 'Budapest',
         date: '2018.08'
     },
     {
         id:6,
         src: '/imgs/Florence.jpg',
-        countryText: 'Italy',
+        countryImage: '/flagImgs/FlagItaly.png',
+        city: 'Florence',
         date: '2018.08'
     }
 ]
