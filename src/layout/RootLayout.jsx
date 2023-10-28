@@ -1,6 +1,6 @@
 import Header from './Header'
 import Footer from './Footer'
-import CardList from './CardList'
+import CardList from '@/components/CardList'
 
 function RootLayout() {
     return (
