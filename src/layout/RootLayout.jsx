@@ -1,7 +1,6 @@
 import Header from './Header'
 import Footer from './Footer'
-import CardList from './CardList'
-import BottomNav from '@/components/BottomNav'
+import CardList from '@/components/CardList'
 
 function RootLayout() {
     return (
@@ -9,7 +8,6 @@ function RootLayout() {
             <Header/>
             <CardList/>
             <Footer/>
-            <BottomNav/>
         </>
     )
 }

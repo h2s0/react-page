@@ -1,6 +1,4 @@
-import Card from '@/components/Card'
-import { getPbImageURL } from '@/utils/getPbImageURL';
-import { useEffect, useState } from 'react';
+import Card from '../components/Card'
 
 function CardList() {
     const [list, setList] = useState([]);
